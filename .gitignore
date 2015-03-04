@@ -1,0 +1,4 @@
+# Ignore list for God Generator
+
+# Database settings
+database.php
