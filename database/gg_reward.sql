@@ -28,7 +28,7 @@ CREATE TABLE `reward` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `text` varchar(4096) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -37,7 +37,7 @@ CREATE TABLE `reward` (
 
 LOCK TABLES `reward` WRITE;
 /*!40000 ALTER TABLE `reward` DISABLE KEYS */;
-INSERT INTO `reward` VALUES (1,'will give you lots of grapes'),(2,'will grant you eternal life'),(3,'will grant you immortality'),(4,'will be very happy'),(5,'will ignore you'),(6,'will be surprised'),(7,'will be shocked'),(8,'will give you a free planet'),(9,'will approve'),(10,'will look favourably on your prayers'),(11,'will answer your prayers'),(12,'will look after you all your life'),(13,'will make you lucky'),(14,'will look after your home planet'),(15,'will visit you to thank you'),(16,'will not care'),(17,'will remain indifferent to you'),(18,'will celebrate by creating some universes'),(19,'will celebrate by creating some galaxies'),(20,'will celebrate by creating some planets');
+INSERT INTO `reward` VALUES (1,'will give you lots of grapes'),(2,'will grant you eternal life'),(3,'will grant you immortality'),(4,'will be very happy'),(5,'will ignore you'),(6,'will be surprised'),(7,'will be shocked'),(8,'will give you a free planet'),(9,'will approve'),(10,'will look favourably on your prayers'),(11,'will answer your prayers'),(12,'will look after you all your life'),(13,'will make you lucky'),(14,'will look after your home planet'),(15,'will visit you to thank you'),(16,'will not care'),(17,'will remain indifferent to you'),(18,'will celebrate by creating some universes'),(19,'will celebrate by creating some galaxies'),(20,'will celebrate by creating some planets'),(21,'will make you immortal'),(22,'will celebrate by creating some nebulas'),(23,'will be happy'),(24,'will grant you three wishes'),(25,'will grant you five wishes'),(26,'will smite all your enemies');
 /*!40000 ALTER TABLE `reward` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2015-02-10 15:43:07
+-- Dump completed on 2015-03-07 21:17:40
