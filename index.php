@@ -1062,38 +1062,20 @@ or die(mysql_error());
 $num_rows = mysql_num_rows($result)
 or die(mysql_error());
 
-//echo $num_rows;
-
-//echo "<br /><br />";
-
-
-
 $data = mysql_query("SELECT text FROM nameparts where id = '".rand(1,$num_rows)."'")
-//$data = mysql_query("SELECT text FROM nameparts where id = '3'")
 or die(mysql_error());
 
 $info = mysql_fetch_array( $data );
-
-//echo $info['text'];
-//echo "<br /><br />";
-//print_r($info);
-
 
 $data2 = mysql_query("SELECT text FROM nameparts where id = '".rand(1,$num_rows)."'")
 or die(mysql_error());
 
 $info2 = mysql_fetch_array( $data2 );
 
-//echo $info2['text'];
-//echo "<br /><br />";
-
 $data3 = mysql_query("SELECT text FROM nameparts where id = '".rand(1,$num_rows)."'")
 or die(mysql_error());
 
 $info3 = mysql_fetch_array( $data3 );
-
-//echo $info3['text'];
-//echo "<br /><br />";
 
 $data10 = mysql_query("SELECT text FROM nameparts where id = '".rand(1,$num_rows)."'")
 or die(mysql_error());
@@ -1134,11 +1116,6 @@ else if ($gn == 2) {
 else {
 	$gender = 'n';
 }
-
-//echo "<br /><br />";
-
-//echo $gender;
-
 
 echo "<br /><br />";
 if ($gender == 'f') {
