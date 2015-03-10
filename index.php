@@ -9,7 +9,6 @@
 	</head>
 	<body class="godbody" bgcolor="#000000" text="#FFFFFF" link="#00FFFF" vlink="#FF99FF">
     	<div class="gridbox">
-        
 		
 <?PHP
 		// Set colour group ranges
@@ -606,8 +605,6 @@
 			$cn++;
 		}
 		
-		
-		
 				// Make the large grid
 				
 				$xgridextent = 2721;
@@ -698,8 +695,6 @@
 					$gv++;
 				}
 		
-		 		//$_REQUEST['lines'] = 'random';
-				//$_REQUEST['lines'] = 'one';
 				$xend = 126;
 				$yend = 63;
 				$nublines = rand(64,160);
@@ -710,7 +705,6 @@
 					// Line drawing one colour
 					
 					$linevar = 1;
-					//$nublines = rand(3,16);
 					
 					while ($linevar <= $nublines) {
 						$red = rand($r11, $r21);
@@ -753,7 +747,6 @@
 					// Line drawing random colours
 					
 					$linevar = 1;
-					//$nublines = rand(3,16);
 					
 					while ($linevar <= $nublines) {
 						$num = rand(1, 8);
@@ -1019,7 +1012,6 @@
 					}
 				
 				}
-			
 			
 			
 				// Draw a large grid
@@ -1839,8 +1831,6 @@ echo "</div>";
 $wln++;
 }        
 ?>		
-
-
 
 <br clear="all" />
 
