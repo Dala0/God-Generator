@@ -18,27 +18,27 @@ USE `gg`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `reward`
+-- Table structure for table `physics`
 --
 
-DROP TABLE IF EXISTS `reward`;
+DROP TABLE IF EXISTS `physics`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `reward` (
+CREATE TABLE `physics` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `text` varchar(4096) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=38 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `reward`
+-- Dumping data for table `physics`
 --
 
-LOCK TABLES `reward` WRITE;
-/*!40000 ALTER TABLE `reward` DISABLE KEYS */;
-INSERT INTO `reward` VALUES (1,'will give you lots of grapes'),(2,'will grant you eternal life'),(3,'will grant you immortality'),(4,'will be very happy'),(5,'will ignore you'),(6,'will be surprised'),(7,'will be shocked'),(8,'will give you a free planet'),(9,'will approve'),(10,'will look favourably on your prayers'),(11,'will answer your prayers'),(12,'will look after you all your life'),(13,'will make you lucky'),(14,'will look after your home planet'),(15,'will visit you to thank you'),(16,'will not care'),(17,'will remain indifferent to you'),(18,'will celebrate by creating some universes'),(19,'will celebrate by creating some galaxies'),(20,'will celebrate by creating some planets'),(21,'will make you immortal'),(22,'will celebrate by creating some nebulas'),(23,'will be happy'),(24,'will grant you three wishes'),(25,'will grant you five wishes'),(26,'will smite all your enemies'),(27,'will grant your every desire'),(28,'will grant your every wish'),(29,'will grant all your wishes'),(30,'will give you great power'),(31,'will give you lots of gold'),(32,'will give you a massive pile of rare-earth elements'),(33,'will give you a free moon'),(34,'will ignore you forever'),(35,'will laugh at you'),(36,'will give you the power of flight'),(37,'will look on you favourably');
-/*!40000 ALTER TABLE `reward` ENABLE KEYS */;
+LOCK TABLES `physics` WRITE;
+/*!40000 ALTER TABLE `physics` DISABLE KEYS */;
+INSERT INTO `physics` VALUES (1,'the strong nuclear force'),(2,'gravity'),(3,'the weak nuclear force');
+/*!40000 ALTER TABLE `physics` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

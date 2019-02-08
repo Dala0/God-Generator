@@ -18,27 +18,27 @@ USE `gg`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `adjective1`
+-- Table structure for table `smallnumbers`
 --
 
-DROP TABLE IF EXISTS `adjective1`;
+DROP TABLE IF EXISTS `smallnumbers`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `adjective1` (
+CREATE TABLE `smallnumbers` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `text` varchar(256) DEFAULT NULL,
+  `text` varchar(4096) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=51 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `adjective1`
+-- Dumping data for table `smallnumbers`
 --
 
-LOCK TABLES `adjective1` WRITE;
-/*!40000 ALTER TABLE `adjective1` DISABLE KEYS */;
-INSERT INTO `adjective1` VALUES (1,'small'),(2,'large'),(3,'very large'),(4,'massive'),(5,'very small'),(6,'fat'),(7,'thin'),(8,'very fat'),(9,'very thin'),(10,'giant'),(11,'gargantuan'),(12,'heavy'),(13,'microscopic'),(14,'extremely fat'),(15,'extremely thin'),(16,'extremely heavy'),(17,'extremely small'),(18,'extremely large'),(19,'exceedingly fat'),(20,'exceedingly large'),(21,'very heavy'),(22,'planet-sized'),(23,'galaxy-sized'),(24,'blubbery'),(25,'three hundred metre long'),(26,'four hundred metre long'),(27,'very long'),(28,'five hundred metre long'),(29,'six hundred metre long'),(30,'seven hundred metre long'),(31,'eight hundred metre long'),(32,'nine hundred metre long'),(33,'one thousand metre long'),(34,'two thousand metre long'),(35,'three thousand metre long'),(36,'four thousand metre long'),(37,'five thousand metre long'),(38,'six thousand metre long'),(39,'seven thousand metre long'),(40,'eight thousand metre long'),(41,'nine thousand metre long'),(42,' chunky'),(43,'corpulent'),(44,'plump'),(45,'rotund'),(46,'slender'),(47,'slim'),(48,'huge'),(49,'enormous'),(50,'minute');
-/*!40000 ALTER TABLE `adjective1` ENABLE KEYS */;
+LOCK TABLES `smallnumbers` WRITE;
+/*!40000 ALTER TABLE `smallnumbers` DISABLE KEYS */;
+INSERT INTO `smallnumbers` VALUES (1,'three'),(2,'four'),(3,'five'),(4,'six'),(5,'seven'),(6,'eight'),(7,'nine');
+/*!40000 ALTER TABLE `smallnumbers` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -50,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-02-08 12:50:22
+-- Dump completed on 2019-02-08 12:50:16

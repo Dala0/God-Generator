@@ -2,9 +2,9 @@ CREATE DATABASE  IF NOT EXISTS `gg` /*!40100 DEFAULT CHARACTER SET utf8 */;
 USE `gg`;
 -- MySQL dump 10.13  Distrib 5.6.17, for Win32 (x86)
 --
--- Host: 62.49.199.194    Database: gg
+-- Host: 127.0.0.1    Database: gg
 -- ------------------------------------------------------
--- Server version	5.5.33-MariaDB
+-- Server version	5.6.19-log
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -28,7 +28,7 @@ CREATE TABLE `creation` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `text` varchar(1024) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=39 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=59 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -37,7 +37,7 @@ CREATE TABLE `creation` (
 
 LOCK TABLES `creation` WRITE;
 /*!40000 ALTER TABLE `creation` DISABLE KEYS */;
-INSERT INTO `creation` VALUES (1,'the planet Earth'),(2,'the universe'),(3,'the Milkyway'),(4,'Europe'),(5,'the planet Mars'),(6,'the planet Venus'),(7,'the Sun'),(8,'the solar system'),(9,'the Sol system'),(10,'the Virgo Supercluster'),(11,'the Andromeda Galaxy'),(12,'an atom'),(13,'the planet Jupiter'),(14,'the planet Saturn'),(15,'everything that exists'),(16,'time and space'),(17,'life'),(18,'vertebrates'),(19,'humanity'),(20,'humankind'),(21,'a quark'),(22,'bats'),(23,'snails'),(24,'the world'),(25,'a photon'),(26,'an up quark'),(27,'a charm quark'),(28,'a Higgs boson'),(29,'Asia'),(30,'Mount Everest'),(31,'light'),(32,'matter'),(33,'energy'),(34,'the cosmos'),(35,'hamsters'),(36,'rats'),(37,'dogs'),(38,'bananas');
+INSERT INTO `creation` VALUES (1,'the planet Earth'),(2,'the universe'),(3,'the Milkyway'),(4,'Europe'),(5,'the planet Mars'),(6,'the planet Venus'),(7,'the Sun'),(8,'the solar system'),(9,'the Sol system'),(10,'the Virgo Supercluster'),(11,'the Andromeda Galaxy'),(12,'an atom'),(13,'the planet Jupiter'),(14,'the planet Saturn'),(15,'everything that exists'),(16,'time and space'),(17,'life'),(18,'vertebrates'),(19,'humanity'),(20,'humankind'),(21,'a quark'),(22,'bats'),(23,'snails'),(24,'the world'),(25,'a photon'),(26,'an up quark'),(27,'a charm quark'),(28,'a Higgs boson'),(29,'Asia'),(30,'Mount Everest'),(31,'light'),(32,'matter'),(33,'energy'),(34,'the cosmos'),(35,'water'),(36,'oxygen'),(37,'Africa'),(38,'parasitic wasps'),(39,'tapeworms'),(40,'viruses'),(41,'the Black Eye Galaxy'),(42,'the Cigar Galaxy'),(43,'the Sunflower Galaxy'),(44,'the Whirlpool Galaxy'),(45,'the Tadpole Galaxy'),(46,'the Sombrero Galaxy'),(47,'the Large Magellanic Cloud'),(48,'the Small Magellanic Cloud'),(49,'a down quark'),(50,'a top quark'),(51,'a strange quark'),(52,'a bottom quark'),(53,'an electron'),(54,'dark matter'),(55,'dark energy'),(56,'gold'),(57,'silver'),(58,'carbon');
 /*!40000 ALTER TABLE `creation` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2015-03-12  1:44:32
+-- Dump completed on 2019-02-08 12:50:11

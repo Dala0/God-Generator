@@ -18,11 +18,9 @@ body.godbody {
 }
 
 div.gridbox {
-
 	position: absolute;
 	top: 0px;
 	left: 0px;
-
 }
 
 div.testbox {
@@ -40,9 +38,77 @@ div.godsbox {
 }
 
 div.sharebox {
+	float: left;
 	padding: 20px;
 	margin: 5px;
 	background: #000000;
 	width: 144px;
 
+}
+
+div.generatedbox {
+  float: left;
+  background: #000000;
+  padding: 5px;
+  margin-left: 80px;
+  margin-top: 28px;
+  font-family: Century Gothic, Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+  filter: alpha(opacity=92);
+  opacity: 0.92;
+}
+
+div.sourcebox {
+	
+	clear: left;
+	float: left;
+	padding: 5px;
+	margin: 5px;
+	background: #000000;
+	font-family: Century Gothic, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	filter: alpha(opacity=92);
+	opacity: 0.92;
+}
+
+a:link {
+	color: #ffffff;
+}
+
+a:visited {
+	color: #ffffff;
+}
+
+a:hover {
+	color: #ffffff;
+}
+
+a:active {
+	color: #ffffff;
+}
+
+div.listnamebox {
+	float: left;
+	width: 26em;
+}
+
+div.listvotesbox {
+	float: left;
+	text-align: right;
+	width: 6em;
+}
+
+div.listtimebox {
+	float: left;
+	text-align: right;
+	width: 12em;
+}
+
+div.listrowbox {
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	float: left;
+	clear: left;
 }

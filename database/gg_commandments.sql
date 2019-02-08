@@ -2,9 +2,9 @@ CREATE DATABASE  IF NOT EXISTS `gg` /*!40100 DEFAULT CHARACTER SET utf8 */;
 USE `gg`;
 -- MySQL dump 10.13  Distrib 5.6.17, for Win32 (x86)
 --
--- Host: 62.49.199.194    Database: gg
+-- Host: 127.0.0.1    Database: gg
 -- ------------------------------------------------------
--- Server version	5.5.33-MariaDB
+-- Server version	5.6.19-log
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -28,7 +28,7 @@ CREATE TABLE `commandments` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `text` varchar(4096) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=91 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=63 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -37,7 +37,7 @@ CREATE TABLE `commandments` (
 
 LOCK TABLES `commandments` WRITE;
 /*!40000 ALTER TABLE `commandments` DISABLE KEYS */;
-INSERT INTO `commandments` VALUES (1,'Do not hurt snails'),(2,'Do not hurt pigs'),(3,'Do not hurt hamsters'),(4,'Do not commit murder'),(5,'Permit no heathen within the settlement walls'),(6,'Always wear black'),(7,'Pray towards the north'),(8,'Never eat nuts'),(9,'Never eat carrots'),(10,'Show mercy to disobedient children'),(11,'Never hurt frogs'),(12,'Do not covet oxen'),(13,'Always help sick hamsters'),(14,'Respect your elders'),(15,'Never hurt bats'),(16,'Never eat bread'),(17,'Do not wear green clothing'),(18,'Do not wear blue clothing'),(19,'Do not listen to music'),(20,'Do not make images of living things'),(21,'Do not drink alcohol'),(22,'Never sit in holy places'),(23,'Never sing in holy places'),(24,'You must never eat turnips'),(25,'Do not speak about bananas'),(26,'Do not wear gold on your body'),(27,'Do not wear silver on your body'),(28,'Never eat bark'),(29,'Always pray in complete darkness'),(30,'Potatoes are unclean and must never pass your lips'),(31,'Never eat green fruit'),(32,'Always pray immersed in water'),(33,'Never wear hats'),(34,'Never eat lemons'),(35,'Do not eat rice'),(36,'Do not wear yellow clothing'),(37,'Fast once a month'),(38,'Always help moths in need'),(39,'Do not kill grasshoppers'),(40,'Feed all hungry rats'),(41,'Never go into purple rooms'),(42,'Always treat geese with great respect'),(43,'Do not shave your back'),(44,'Do not imbibe mustard, for it is unholy'),(45,'Always take life seriously'),(46,'Never laugh in holy places'),(47,'Look mercifully on unfortunate shrews'),(48,'Look mercifully on unfortunate ducks'),(49,'Look mercifully on unfortunate capybaras'),(50,'Radishes are unclean and should not be eaten'),(51,'Do not fashion models of living things'),(52,'Never pour water over plants'),(53,'Do not drink water in blue rooms'),(54,'Do not drink water in pink rooms'),(55,'Do not drink from vessels made of base metals'),(56,'Do not drink from vessels made of earth'),(57,'Do not drink from vessels made of gold'),(58,'Walk at least three thousand metres per day'),(59,'Always prostrate yourself in the presence of your elders'),(60,'Treat sacred texts with the utmost of respect'),(61,'Never play with disobedient children'),(62,'Do not listen to heathen tongues'),(63,'Do not cook food in pots'),(64,'Always help otters'),(65,'Do not skip in public'),(66,'Never mention goats'),(67,'Never talk about sheep'),(68,'Voles are unholy and should not be approached'),(69,'Do not chop down trees'),(70,'Respect rivers and do not attempt to bridge them'),(71,'Do not run in public'),(72,'Always look after injured squirrels'),(73,'Do not stand on grass'),(74,'Always make a point of helping unfortunate manatees'),(75,'Do not dye your hair green'),(76,'Do not dye your hair blue'),(77,'Ponytails are unholy and must not be worn'),(78,'Always make sure there are no aardvarks in a room before entering it'),(79,'Always make sure there are no blue tits in a room before entering it'),(80,'Foxes are not to be trusted'),(81,'Never look in ponds'),(82,'Always stare at clouds'),(83,'Do not shelter from rain as it is holy'),(84,'Never talk about fire'),(85,'Never talk about stars'),(86,'Never think ill of sick badgers'),(87,'Do not trade with those who eat limes'),(88,'Always look both ways before crossing roads'),(89,'Never eat peas'),(90,'Never eat beans');
+INSERT INTO `commandments` VALUES (1,'Doors are unholy and should not be erected'),(2,'Do not commit murder'),(3,'Permit no heathen within the settlement walls'),(4,'Pray towards the north'),(5,'Show mercy to disobedient children'),(6,'Do not covet oxen'),(7,'Respect your elders'),(8,'Do not listen to music'),(9,'Do not make images of living things'),(10,'Do not drink alcohol'),(11,'Never sit in holy places'),(12,'Never sing in holy places'),(13,'Do not speak about bananas'),(14,'Do not wear gold on your body'),(15,'Do not wear silver on your body'),(16,'Never eat bark'),(17,'Always pray in complete darkness'),(18,'Potatoes are unclean and must never pass your lips'),(19,'Never eat green fruit'),(20,'Always pray immersed in water'),(21,'Never wear hats'),(22,'Fast once a month'),(23,'Feed all hungry rats'),(24,'Do not shave your back'),(25,'Do not imbibe mustard, for it is unholy'),(26,'Always take life seriously'),(27,'Never laugh in holy places'),(28,'Radishes are unclean and should not be eaten'),(29,'Do not fashion models of living things'),(30,'Never pour water over plants'),(31,'Do not drink from vessels made of base metals'),(32,'Do not drink from vessels made of earth'),(33,'Do not drink from vessels made of gold'),(34,'Walk at least three thousand metres per day'),(35,'Always prostrate yourself in the presence of your elders'),(36,'Treat sacred texts with the utmost of respect'),(37,'Never play with disobedient children'),(38,'Do not listen to heathen tongues'),(39,'Do not cook food in pots'),(40,'Do not skip in public'),(41,'Do not chop down trees'),(42,'Respect rivers and do not attempt to bridge them'),(43,'Do not run in public'),(44,'Do not stand on grass'),(45,'Ponytails are unholy and must not be worn'),(46,'Never look in ponds'),(47,'Always stare at clouds'),(48,'Do not shelter from rain as it is holy'),(49,'Never talk about fire'),(50,'Never talk about stars'),(51,'Do not trade with those who eat limes'),(52,'Always look both ways before crossing roads'),(53,'Cucumbers are unclean and must never pass your lips'),(54,'Never talk about moons'),(55,'Never talk about comets'),(56,'Never talk about black holes'),(57,'Never talk about the strong nuclear force'),(58,'Never talk about gravity'),(59,'Never talk about the weak nuclear force'),(60,'Never talk about evolution by means of natural selection'),(61,'Never talk about the inheritance of acquired characteristics'),(62,'Always make sure there are no nematodes in a room before entering it');
 /*!40000 ALTER TABLE `commandments` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2015-02-10 15:43:01
+-- Dump completed on 2019-02-08 12:50:13
